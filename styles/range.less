@@ -1,0 +1,96 @@
+	.range,
+	.range * {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+		box-sizing: border-box;
+-webkit-user-select: none;
+   -moz-user-select: none;
+	-ms-user-select: none;
+		display: block;
+		cursor: default;
+	}
+	.range {
+		position: relative;
+		background:#fff;
+	}
+	.range a {
+		position: absolute;
+		z-index: 1;
+	}
+	.range a:nth-child(2) {
+		background: inherit !important;
+	}
+	.range.vertical a {
+		width: 100%;
+		bottom: 0;
+	}
+	.range.horizontal a {
+		height: 100%;
+		right: 0;
+		background: #e2e2e2;
+	}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.range:before,
+	body.TOUCH,
+	.range div {
+		-ms-touch-action: none;
+	}
+	.range:before {
+		display: block;
+		position: absolute;
+		width: 150%;
+		left: -25%;
+		height: 400%;
+		top: -150%;
+		content: "";
+		z-index: -1;
+	}
+	.range.vertical:before {
+		width: 400%;
+		left: -150%;
+		height: 150%;
+		top: -25%;
+	}
+}
+	.range {
+		border: 1px solid #aaaaaa;
+		border-radius: 3px;
+	}
+	.range.connect a,
+	.range.connect.lower {
+		background: #b2a98f;
+	}
+	.range.connect.lower a {
+		background: #e2e2e2;
+	}
+	.range.disabled,
+	.range.disabled.connect.lower a {
+		background: #ccc;
+		box-shadow: none;
+	}
+	.range div {
+		height: 18px;
+		width: 18px;
+		border: 1px solid #99968f;
+		border-radius: 3px;
+		background: #efefe7;
+		.gradient( #ebebeb, #ededed, #eaeaea);
+		cursor: pointer;
+	}
+	.range.disabled div {
+		background: transparent;
+	}
+	.range.horizontal {
+		width: 100%;
+		height: 10px;
+	}
+	.range.horizontal div {
+		margin: -5px 0 0 -9px;
+	}
+	.range.vertical {
+		width: 10px;
+		height: 300px;
+	}
+	.range.vertical div {
+		margin: -9px 0 0 -5px;
+	}

@@ -1,0 +1,2546 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Estatement v2.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/estatement\n"
+"POT-Creation-Date: 2013-05-14 15:02:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-05-14 17:04+0100\n"
+"Last-Translator: Daniel Pataki <contact@tastique.org>\n"
+"Language-Team: Bonsai Shed <hello@bonsaished.com>\n"
+"Language: English\n"
+
+#: author.php:19
+msgid "%s's Properties"
+msgstr ""
+
+#: comments.php:41
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:61
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: framework/customdata/EST_Customdata_Table.class.php:41
+msgid "%d options"
+msgstr ""
+
+#: framework/customdata/EST_Customdata_Table.class.php:69
+msgid "delete"
+msgstr ""
+
+#: framework/customdata/EST_Customdata_Table.class.php:70
+msgid "edit"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:24
+msgid "Edit Custom Field"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:27
+msgid "Add Custom Field"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:35
+msgid ""
+"There was an error adding your field. Please make sure that you've filled "
+"out the name and if you selected a type with multiple options you fill out "
+"at least one of them"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:41
+msgid ""
+"There was an error editing your field. Please make sure that you've filled "
+"out the name and if you selected a type with multiple options you fill out "
+"at least one of them. Also, make sure you're edited item is not the same as "
+"any existing custom field"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:48
+msgid "Your field has been edited successfully"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:55
+msgid "Your field has been added"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:65
+#: framework/customdata/customdata_add.php:161 functions.php:1946
+msgid "Name"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:67
+#: framework/customdata/customdata_add.php:163
+msgid "The name of your custom field"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:72
+#: framework/customdata/customdata_add.php:168
+msgid "Type"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:81
+#: framework/customdata/customdata_add.php:177
+msgid "Prefix"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:83
+#: framework/customdata/customdata_add.php:179
+msgid "Add a prefix to this field"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:88
+#: framework/customdata/customdata_add.php:184
+msgid "Suffix"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:90
+#: framework/customdata/customdata_add.php:186
+msgid "Add a suffix to this field"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:95
+#: framework/customdata/customdata_add.php:191
+msgid "Format"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:100
+#: framework/customdata/customdata_add.php:196
+msgid "Format as regular text"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:101
+#: framework/customdata/customdata_add.php:197
+msgid "Format as number"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:117
+#: framework/customdata/customdata_add.php:209
+msgid "Options"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:122
+#: framework/customdata/customdata_add.php:126
+#: framework/customdata/customdata_add.php:133
+#: framework/customdata/customdata_add.php:213
+#: framework/customdata/customdata_add.php:217
+msgid "Option Name"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:123
+#: framework/customdata/customdata_add.php:127
+#: framework/customdata/customdata_add.php:135
+#: framework/customdata/customdata_add.php:214
+#: framework/customdata/customdata_add.php:218
+msgid "Option Value"
+msgstr ""
+
+#: framework/customdata/customdata_add.php:141
+#: framework/customdata/customdata_add.php:221
+msgid "+ add another"
+msgstr ""
+
+#: framework/customdata/customdata_defaults.php:3
+msgid "Edit Default Fields"
+msgstr ""
+
+#: framework/customdata/customdata_defaults.php:9
+msgid "Default custom fields have been modified"
+msgstr ""
+
+#: framework/customdata/customdata_defaults.php:16
+#: framework/template-options/bshPropertyOptions.class.php:402
+msgid "Custom Details"
+msgstr ""
+
+#: framework/customdata/customdata_defaults.php:17
+msgid ""
+"\n"
+"\t<p>\n"
+"\tWhenever properties are shown, custom fields are usually shown as well. "
+"Using the controls below you can set which custom fields should be shown, "
+"unless otherwise specified. Note that you can control the custom fields "
+"shown for listing pages and shortcode separately if you wish.\n"
+"\t</p>\n"
+msgstr ""
+
+#: framework/customdata/customdata_defaults.php:53
+msgid "Default subtitles have been modified"
+msgstr ""
+
+#: framework/customdata/customdata_defaults.php:59
+msgid "Property Subtitle"
+msgstr ""
+
+#: framework/customdata/customdata_defaults.php:61
+msgid ""
+"\n"
+"\t<p>\n"
+"\tIn a number of cases there is a subtitle shown under the property name. By "
+"default this is the city and state. Here you can select the items you'd like "
+"to show instead. Fill out the order fields using numbers to set the order in "
+"which they appear.\n"
+"\t</p>\n"
+msgstr ""
+
+#: framework/customdata/customdata_display.php:3
+msgid "Manage Custom Data"
+msgstr ""
+
+#: framework/customdata/customdata_display.php:19
+msgid "The selected custom fields have been deleted successfully"
+msgstr ""
+
+#: framework/customdata/customdata_display.php:25
+msgid "The selected custom field has been deleted successfully"
+msgstr ""
+
+#: framework/customdata/customdata_display.php:31
+msgid ""
+"The selected custom field can not be deleted because it is a built in "
+"required field"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:12
+msgid "General Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:17
+#: framework/template-options/bshPropertyOptions.class.php:32
+msgid "Property Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:22
+msgid "Blog Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:27
+msgid "Header Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:32
+msgid "Footer Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:38
+msgid "Footer Bar Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:43
+msgid "Featured Properties Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:49
+#: framework/template-options/bshPropertyOptions.class.php:53
+msgid "Contact Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:55
+msgid "API Keys"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:61
+msgid "Error Display Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:195
+msgid "Logo Image"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:213
+msgid "HiDPI Logo Image"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:231
+msgid "Location Text"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:249
+msgid "Phone Text"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:266
+msgid "Email Text"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:284
+msgid "Header Background Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:303
+msgid "Header Text Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:322
+msgid "Show Widgetized Footer Area?"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:347
+msgid "Footer Background Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:366
+msgid "Footer Text Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:385
+msgid "Show Footer Bar?"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:410
+msgid "Footer Bar Background Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:429
+msgid "Footer Bar Text Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:448
+msgid "Footer Bar Text"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:466
+msgid "Show Featured Properties Box?"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:488
+msgid "Featured Properties Speed"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:507
+msgid "Number Of Featured Properties To Show"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:524
+msgid "Featured Properties To Show"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:567
+msgid "First Custom Field To Show"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:586
+msgid "Second Custom Field To Show"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:609
+msgid "About Contact Options"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:613
+msgid ""
+"<p>\n"
+"\t\t\t\t\t\tThe following options concern contact messages sent from single "
+"property pages. Whenever a user sends a message it is sent to you (or a "
+"separate contact for the specific property) and a confirmation is sent to "
+"the user.\n"
+"\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\tFor the subject and message fields below you can use a couple "
+"of placeholders which signify the title and the link for the property. If "
+"you use <strong>!url</strong> it will be replaced by the title of the "
+"property. If you use <strong>!link</strong> it will be replaced with the url "
+"to the property.\n"
+"\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:634
+#: framework/template-options/bshPropertyOptions.class.php:507
+msgid "Contact Auto-Reply Subject"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:653
+msgid "Contact Auto-reply Message"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:671
+msgid "Send Contact Messages To:"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:780
+msgid "Body Text Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:791
+msgid "Heading Text Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:802
+msgid "Background Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:813
+msgid "Background Image"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:823
+msgid "Tile Background?"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:839
+msgid "Content Area Background"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:850
+msgid "Default Layout"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:868
+msgid "Primary Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:879
+msgid "Primary Text Color"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:890
+msgid "Body Font"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:902
+msgid "Heading Font"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:914
+msgid "Search Page Heading Font"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:928
+msgid "Sidebars"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:970
+msgid "Analytics"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:989
+msgid "Allow Commenting on Properties?"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1012
+msgid "Field To Show In Ribbon"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1031
+msgid "Show Print Button?"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1057
+msgid "Content to show in lists"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1079
+msgid "Google Maps API Key"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1134
+msgid "404 Error Title"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1144
+msgid "404 Error Message"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1155
+msgid "No Content Title"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1166
+msgid "No Content Message"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1178
+msgid "No Search Results Title"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1189
+msgid "No Search Results Message"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1200
+msgid "Include a Page When No Search Results"
+msgstr ""
+
+#: framework/customizer/Customizer.class.php:1678
+msgid "Don't Show a Page"
+msgstr ""
+
+#: framework/external/imageUpload/imageUpload.class.php:136
+#: framework/external/imageUpload/imageUpload.class.php:137
+msgid "Choose Image"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:32
+#: framework/template-options/bshOptions.class.php:53
+msgid "Page Options"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:50
+#: framework/template-options/bshListingPageOptions.class.php:50
+#: framework/template-options/bshMapPageOptions.class.php:52
+#: framework/template-options/bshPostOptions.class.php:50
+#: framework/template-options/bshPropertyOptions.class.php:50
+#: framework/template-options/bshSearchPageOptions.class.php:53
+msgid "Structure"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:51
+#: framework/template-options/bshListingPageOptions.class.php:53
+#: framework/template-options/bshMapPageOptions.class.php:54
+#: framework/template-options/bshPostOptions.class.php:51
+#: framework/template-options/bshPropertyOptions.class.php:54
+#: framework/template-options/bshSearchPageOptions.class.php:54
+msgid "Help"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:52
+#: framework/template-options/bshListingPageOptions.class.php:54
+#: framework/template-options/bshMapPageOptions.class.php:55
+#: framework/template-options/bshPostOptions.class.php:52
+#: framework/template-options/bshPropertyOptions.class.php:55
+#: framework/template-options/bshSearchPageOptions.class.php:55
+msgid "Shortcode Guide"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:53
+#: framework/template-options/bshListingPageOptions.class.php:55
+#: framework/template-options/bshMapPageOptions.class.php:56
+#: framework/template-options/bshPostOptions.class.php:53
+#: framework/template-options/bshPropertyOptions.class.php:56
+#: framework/template-options/bshSearchPageOptions.class.php:56
+msgid "Get Support"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:61
+#: framework/template-options/bshDefaultOptions.class.php:92
+#: framework/template-options/bshDefaultOptions.class.php:121
+#: framework/template-options/bshListingPageOptions.class.php:63
+#: framework/template-options/bshListingPageOptions.class.php:94
+#: framework/template-options/bshListingPageOptions.class.php:123
+#: framework/template-options/bshListingPageOptions.class.php:162
+#: framework/template-options/bshListingPageOptions.class.php:180
+#: framework/template-options/bshListingPageOptions.class.php:241
+#: framework/template-options/bshListingPageOptions.class.php:303
+#: framework/template-options/bshListingPageOptions.class.php:341
+#: framework/template-options/bshMapPageOptions.class.php:65
+#: framework/template-options/bshMapPageOptions.class.php:81
+#: framework/template-options/bshMapPageOptions.class.php:97
+#: framework/template-options/bshMapPageOptions.class.php:113
+#: framework/template-options/bshMapPageOptions.class.php:129
+#: framework/template-options/bshMapPageOptions.class.php:155
+#: framework/template-options/bshMapPageOptions.class.php:186
+#: framework/template-options/bshMapPageOptions.class.php:213
+#: framework/template-options/bshMapPageOptions.class.php:242
+#: framework/template-options/bshMapPageOptions.class.php:267
+#: framework/template-options/bshMapPageOptions.class.php:293
+#: framework/template-options/bshMapPageOptions.class.php:325
+#: framework/template-options/bshMapPageOptions.class.php:364
+#: framework/template-options/bshMapPageOptions.class.php:398
+#: framework/template-options/bshMapPageOptions.class.php:477
+#: framework/template-options/bshMapPageOptions.class.php:548
+#: framework/template-options/bshPostOptions.class.php:61
+#: framework/template-options/bshPostOptions.class.php:92
+#: framework/template-options/bshPostOptions.class.php:120
+#: framework/template-options/bshPropertyOptions.class.php:65
+#: framework/template-options/bshPropertyOptions.class.php:93
+#: framework/template-options/bshPropertyOptions.class.php:129
+#: framework/template-options/bshPropertyOptions.class.php:158
+#: framework/template-options/bshPropertyOptions.class.php:194
+#: framework/template-options/bshPropertyOptions.class.php:212
+#: framework/template-options/bshPropertyOptions.class.php:229
+#: framework/template-options/bshPropertyOptions.class.php:245
+#: framework/template-options/bshPropertyOptions.class.php:262
+#: framework/template-options/bshPropertyOptions.class.php:284
+#: framework/template-options/bshPropertyOptions.class.php:301
+#: framework/template-options/bshPropertyOptions.class.php:329
+#: framework/template-options/bshPropertyOptions.class.php:376
+#: framework/template-options/bshPropertyOptions.class.php:434
+#: framework/template-options/bshPropertyOptions.class.php:498
+#: framework/template-options/bshPropertyOptions.class.php:514
+#: framework/template-options/bshPropertyOptions.class.php:530
+#: framework/template-options/bshSearchPageOptions.class.php:65
+#: framework/template-options/bshSearchPageOptions.class.php:81
+#: framework/template-options/bshSearchPageOptions.class.php:97
+#: framework/template-options/bshSearchPageOptions.class.php:113
+#: framework/template-options/bshSearchPageOptions.class.php:146
+#: framework/template-options/bshSearchPageOptions.class.php:179
+#: framework/template-options/bshSearchPageOptions.class.php:201
+#: framework/template-options/bshSearchPageOptions.class.php:235
+#: framework/template-options/bshSearchPageOptions.class.php:314
+#: framework/template-options/bshSearchPageOptions.class.php:385
+#: framework/template-options/bshSearchPageOptions.class.php:472
+#: framework/template-options/bshSearchPageOptions.class.php:498
+#: framework/template-options/bshSearchPageOptions.class.php:530
+msgid "help"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:63
+#: framework/template-options/bshListingPageOptions.class.php:65
+#: framework/template-options/bshMapPageOptions.class.php:295
+#: framework/template-options/bshSearchPageOptions.class.php:500
+msgid ""
+"By default the layout of this page is inherited from the default layout "
+"which can be changed in the <a href=\"%s\">Theme Customizer</a>. If you need "
+"a different layout on this page, you can override the default setting."
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:67
+#: framework/template-options/bshListingPageOptions.class.php:69
+#: framework/template-options/bshMapPageOptions.class.php:299
+#: framework/template-options/bshPostOptions.class.php:67
+#: framework/template-options/bshSearchPageOptions.class.php:504
+msgid "Layout"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:94
+#: framework/template-options/bshListingPageOptions.class.php:96
+#: framework/template-options/bshPropertyOptions.class.php:67
+msgid ""
+"By default the title of this page is shown under the header. If you would "
+"like to hide this title, check the radio button next to  \"Hide\""
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:98
+#: framework/template-options/bshListingPageOptions.class.php:100
+#: framework/template-options/bshPropertyOptions.class.php:71
+msgid "Page Title"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:123
+#: framework/template-options/bshListingPageOptions.class.php:125
+#: framework/template-options/bshMapPageOptions.class.php:327
+#: framework/template-options/bshSearchPageOptions.class.php:532
+msgid ""
+"If you are using a layout with a sidebar the default sidebar will be shown. "
+"You can set the default sidebar in the <a href=\"%s\">Theme Customizer</a>. "
+"If you would like to use a different sidebar on this page, choose one here."
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:127
+#: framework/template-options/bshListingPageOptions.class.php:129
+#: framework/template-options/bshMapPageOptions.class.php:331
+#: framework/template-options/bshPostOptions.class.php:126
+#: framework/template-options/bshPropertyOptions.class.php:99
+#: framework/template-options/bshSearchPageOptions.class.php:536
+#: functions.php:266
+msgid "Sidebar"
+msgstr ""
+
+#: framework/template-options/bshDefaultOptions.class.php:157
+msgid ""
+"\n"
+"\t        \t\t\t\t<p>Pages are a way to add static content to your website. "
+"They are perfect for about pages, staff pages and so on. Apart from the "
+"numerous shortcodes we offer for customizing the content in a post there are "
+"also some settings for this page specifically: </p>\n"
+"\n"
+"\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t<li>Structure\n"
+"\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t<li><span style=\"line-height: 13px;\"><strong>Layout</"
+"strong>: Determines the type of layout you would like for this specific "
+"page</span></li>\n"
+"\t\t\t\t\t\t\t<li><strong>Page Title</strong>: Allows you to show or hide "
+"the page title</li>\n"
+"\t\t\t\t\t\t\t<li><strong>Sidebar</strong>: Allows you to show a specific "
+"sidebar for this page</li>\n"
+"\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t</li>\n"
+"\t        \t\t\t</ul>\n"
+"\n"
+"\t        \t\t\t"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:32
+msgid "Listing Page Options"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:51
+msgid "Listing Properties"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:52
+msgid "Property Details"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:164
+msgid "Specify the number of properties that should be shown on each page"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:172
+msgid "Properties Per Page"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:182
+msgid ""
+"By Selecting a number of property types you can narrow the properties shown "
+"to only the selected types. If no types are selected all properties will be "
+"shown."
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:186
+#: functions.php:418 functions.php:428
+msgid "Property Types"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:191
+msgid ""
+"You haven't created any property types yet. You can do so by clicking on any "
+"property item (or creating one) and adding a type on the fly using the "
+"\"Property Types\" box on the right. You can also click on \"Property Types"
+"\" in \"Properties\" in the left hand menu"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:243
+msgid ""
+"By Selecting a number of property categories you can narrow the properties "
+"shown to only the selected categories. If no categories are selected all "
+"properties will be shown."
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:247
+msgid "Property Categories"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:252
+msgid ""
+"You haven't created any property categories yet. You can do so by clicking "
+"on any property item (or creating one) and adding a type on the fly using "
+"the \"Property Categories\" box on the right. You can also click on "
+"\"Property Categories\" in \"Properties\" in the left hand menu"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:305
+#: framework/widgets/PropertyDetailsWidget.class.php:82
+msgid ""
+"If you select to show the location as a single field, all the location data "
+"will be condensed into one row. If you choose to show only selected fields "
+"only the location fields selected will be added to this single row."
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:310
+msgid "Condense Location"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:320
+#: framework/template-options/bshListingPageOptions.class.php:353
+#: framework/widgets/PropertyDetailsWidget.class.php:114
+msgid "Custom Field"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:321
+#: framework/template-options/bshListingPageOptions.class.php:354
+#: framework/widgets/PropertyDetailsWidget.class.php:115
+msgid "Order"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:329
+#: framework/widgets/PropertyDetailsWidget.class.php:91
+msgid "Show Location as single field"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:343
+#: framework/widgets/PropertyDetailsWidget.class.php:108
+msgid ""
+"The following section allows you to set up which custom fields are shown. To "
+"create your own order make sure to select \"custom\" from the dropdown "
+"selector as well as setting up the order below."
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:347
+#: framework/widgets/PropertyDetailsWidget.class.php:105
+msgid "Select Custom Fields"
+msgstr ""
+
+#: framework/template-options/bshListingPageOptions.class.php:384
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t<p>The property listing template allows you to create a list "
+"of properties. Using the page options you can narrow this list down to a "
+"subset of your properties which is great for creating separate lists for "
+"different property types.</p>\n"
+"<ul>\n"
+"<li>Structure\n"
+"<ul>\n"
+"<li><strong>Layout</strong>: Determines the type of layout you would like "
+"for this specific page</li>\n"
+"<li><strong>Page Title</strong>: Allows you to show or hide the page title</"
+"li>\n"
+"<li><strong>Sidebar</strong>: Allows you ro show a specific sidebar for this "
+"page</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li>Listing Contents\n"
+"<ul>\n"
+"<li><strong>Properties Per Page</strong>: Determines the number of "
+"properties shown on one page</li>\n"
+"<li><strong>Property Types</strong>: Select the property types to show in "
+"this listing</li>\n"
+"<li><strong>Property Categories</strong>: Select the property categories to "
+"show in this listing</li>\n"
+"</ul>\n"
+"</li>\n"
+"</ul>\n"
+"\t\t\t\t\t\t\t\t        \t\t\t"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:32
+msgid "Map Page Options"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:50
+#: framework/template-options/bshSearchPageOptions.class.php:50
+msgid "Text Options"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:51
+msgid "Map Options"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:53
+#: framework/template-options/bshSearchPageOptions.class.php:52
+msgid "Advanced Search"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:67
+#: framework/template-options/bshSearchPageOptions.class.php:67
+msgid ""
+"The text you specify here will be shown in the search input box as the "
+"placeholder text."
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:75
+#: framework/template-options/bshSearchPageOptions.class.php:75
+msgid "Search Placeholder"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:83
+#: framework/template-options/bshSearchPageOptions.class.php:83
+msgid "This field allows you to modify the text in the search button."
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:91
+#: framework/template-options/bshSearchPageOptions.class.php:91
+msgid "Button Text"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:99
+#: framework/template-options/bshSearchPageOptions.class.php:99
+msgid ""
+"Specify the text used for opening the advanced section. This is only visible "
+"to the user if you have enabled advanced options in the advanced search "
+"section"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:107
+#: framework/template-options/bshSearchPageOptions.class.php:107
+msgid "Advanced Options Open Text"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:115
+#: framework/template-options/bshSearchPageOptions.class.php:115
+msgid ""
+"Specify the text used for closing the advanced section. This is only visible "
+"to the user if you have enabled advanced options in the advanced search "
+"section"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:123
+#: framework/template-options/bshSearchPageOptions.class.php:123
+msgid "Advanced Options Close Text"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:131
+msgid ""
+"Specify the text used when there are no properties found for the given "
+"location"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:139
+msgid "No Results Message"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:157
+msgid "Select the type of map you would like to use in the map page"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:161
+msgid "Map Type"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:188
+msgid ""
+"Specify the initial location of the map. Use any text you would enter into "
+"Google Maps"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:201
+msgid "Initial Map Location"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:204
+msgid "Use the viewer's location"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:205
+msgid "Use the specified address below"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:215
+msgid ""
+"Select what should happen if there are no properties near the users location "
+"or search"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:219
+msgid "Error Behavior"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:244
+msgid ""
+"By specifying a new image you can change the way the markers look on the map"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:252
+msgid "Map Marker Image"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:269
+msgid ""
+"Select between a full page map or specify the height to be able to add some "
+"content"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:281
+msgid "Map Height"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:284
+msgid "Full Page Map"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:285
+msgid "Specific Map Height:"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:366
+#: framework/template-options/bshSearchPageOptions.class.php:203
+msgid ""
+"Make sure the \"Enable Advanced Search\" box is checked if you want to "
+"enable searching based on custom parameters, taxonomies and such. You can "
+"find all the options for this below"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:370
+#: framework/template-options/bshSearchPageOptions.class.php:207
+msgid "Enable Advanced Search?"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:400
+#: framework/template-options/bshSearchPageOptions.class.php:237
+msgid "Select the taxonomies you would like to add to this search page"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:404
+#: framework/template-options/bshSearchPageOptions.class.php:241
+msgid "Built In Taxonomies To Show"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:479
+#: framework/template-options/bshSearchPageOptions.class.php:316
+msgid "Select the default in details you would like to add to this search page"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:483
+#: framework/template-options/bshSearchPageOptions.class.php:320
+msgid "Built In Details To Show"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:550
+#: framework/template-options/bshSearchPageOptions.class.php:387
+msgid ""
+"You can add custom details to the search options here. To do so you must "
+"first add a custom detail to an apartment. If you would like users to be "
+"able to search based on how many baths the apartment has make sure to add a "
+"\"Baths\" custom detail to an apartment. Once you do the \"Baths\" detail "
+"will show up here"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:554
+#: framework/template-options/bshSearchPageOptions.class.php:391
+msgid "Custom Details To Show"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:559
+#: framework/template-options/bshSearchPageOptions.class.php:396
+msgid ""
+"You haven't created any custom details yet. Make sure to add some to your "
+"apartments to make them show up here"
+msgstr ""
+
+#: framework/template-options/bshMapPageOptions.class.php:633
+msgid ""
+"\n"
+"\t        \t\t\t\t<p>\n"
+"\t        \t\t\t\t\tThe map search page template allows you to crearte a "
+"beautiful full screen map search page. The page supports searching nearby "
+"the users location with a customizable distance. Map pages allow you to "
+"modify the following settings\n"
+"\t        \t\t\t\t</p>\n"
+"\n"
+"<ul>\n"
+"\t<li>Text Options\n"
+"<ul>\n"
+"\t<li><strong>Search Placeholder</strong>: Specify the text shown inside the "
+"search box by default</li>\n"
+"\t<li><strong>Button Text</strong>: Specify the button text</li>\n"
+"\t<li><strong>Advanced Options Open Text</strong>: Specify the text in the "
+"advanced search tab when it is closed</li>\n"
+"\t<li><strong>Advanced Options Closed Text</strong>: Specify the text in the "
+"advanced search tab when it is open</li>\n"
+"\t<li><strong>No Results Message</strong>: Specify the message shown to "
+"users when no properties are found near the area they searched for.</li>\n"
+"</ul>\n"
+"</li>\n"
+"\t<li>Map Options\n"
+"<ul>\n"
+"\t<li><strong>Map Type</strong>: Allows you to specify the map type.</li>\n"
+"\t<li><strong>Initial Map Location</strong>: Specify the area the map should "
+"show when it loads. A search for nearby properties is performed when the "
+"page loads. You can also specify the user's current location to be the "
+"initial position.</li>\n"
+"<li><strong> Error Behavior</strong>: Select how the map should behave if "
+"there are no search results near the user's location or search</li>\n"
+"\t<li><strong>Map Marker Image</strong>: This setting allows you to select a "
+"different map marker image.</li>\n"
+"</ul>\n"
+"</li>\n"
+"\t<li>Structure\n"
+"<ul>\n"
+"\t<li><strong>Map Height</strong>: This option allows you to choose between "
+"a full-page map or a map with a specific height. If a specific height is "
+"selected you will be able to add content into the editor, just like on other "
+"pages. This is great for creating some beautiful <a href=\"http://airbnb.com"
+"\">airbnb</a> style pages.</li>\n"
+"\t<li><strong>Layout</strong>: The layout option applies to this page if a "
+"specific map height is selected. In this case you can choose a layout.</li>\n"
+"\t<li><strong>Sidebar</strong>: If a map height is specifically chosen and a "
+"layout with a sidebar is used you can select which sidebar should show up "
+"here.</li>\n"
+"</ul>\n"
+"</li>\n"
+"</ul>\n"
+"\n"
+"\t        \t\t\t"
+msgstr ""
+
+#: framework/template-options/bshPostOptions.class.php:32
+msgid "Post Options"
+msgstr ""
+
+#: framework/template-options/bshPostOptions.class.php:63
+msgid ""
+"By default the layout of this post is inherited from the default layout "
+"which can be changed in the <a href=\"%s\">Theme Customizer</a>. If you need "
+"a different layout for this post, you can override the default setting."
+msgstr ""
+
+#: framework/template-options/bshPostOptions.class.php:94
+msgid ""
+"By default the metadata (post date, comment count, etc.) is shown on posts. "
+"If you don't need it, you can turn it off for this post here."
+msgstr ""
+
+#: framework/template-options/bshPostOptions.class.php:98
+msgid "Post Metadata"
+msgstr ""
+
+#: framework/template-options/bshPostOptions.class.php:122
+#: framework/template-options/bshPropertyOptions.class.php:95
+msgid ""
+"If you are using a layout with a sidebar the default sidebar will be shown. "
+"You can set the default sidebar in the <a href=\"%s\">Theme Customizer</a>. "
+"If you would like to use a different sidebar on this post, choose one here."
+msgstr ""
+
+#: framework/template-options/bshPostOptions.class.php:156
+msgid ""
+"\n"
+"\t        \t\t\t\t<p>\n"
+"\t        \t\t\t\t\tPosts allow you to create simple blog-like content. They "
+"are shown on the main page by default and can be categorized and tagged for "
+"better organization. Musico offers a few special options for posts in "
+"addition to the numerous shortcodes which will help you format your "
+"content.\n"
+"\t        \t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t<li>\n"
+"\t\t\t\t\t\t\t\tStructure\n"
+"\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t<li><strong>Layout</strong>: By default the layout of this "
+"post is inherited from the default layout which can be changed in the Theme "
+"Customizer. If you need a different layout for this post, you can override "
+"the default setting.\n"
+"\t\t\t\t\t\t\t\t</li>\n"
+"\t\t\t\t\t\t\t\t<li><strong>Post Metadata</strong>: By default posts show "
+"meta information like author, tag, categories and so on. If you would not "
+"like to show this information for this post, you can enable it with this "
+"setting.</li>\n"
+"\t\t\t\t\t\t\t\t<li><strong>Sidebar</strong>: If you are using a layout with "
+"a sidebar the default sidebar will be shown. You can set the default sidebar "
+"in the Theme Customizer. If you would like to use a different sidebar on "
+"this post, choose one here.\n"
+"\t\t\t\t\t\t\t\t</li>\n"
+"\n"
+"\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t</li>\n"
+"\t\t\t\t\t\t\t</ul>\n"
+"\n"
+"\n"
+"\t        \t\t\t"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:51
+#: framework/widgets/PropertyDetailsWidget.class.php:185
+#: layout-property-list.php:68
+msgid "Location"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:52
+msgid "Details"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:131
+msgid ""
+"Select what you would like to use at the top of the single apartment page"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:135
+msgid "Element At The Top Of The Page"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:160
+msgid ""
+"The default data to put in the ribbon can be set in the <a href=\"%s\">theme "
+"customizer</a>. If you want to override it for this property, simply select "
+"a different field."
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:164
+msgid "Ribbon Custom Field"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:196
+msgid "Select the country the property is located in."
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:203
+msgid "Country"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:214
+msgid "Specify the state this property is located in"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:221
+msgid "State"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:231
+msgid "Specify the city this property is located in"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:238
+msgid "City"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:247
+msgid "Specify the street level address"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:254
+msgid "Street Address"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:264
+msgid "Specify the zip/postal code"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:271
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:278
+msgid ""
+"The following fields can be used to add the latitude and longitude manually. "
+"This can be useful if you have some properties in remote locations. Beware "
+"as this overwrites andy previous locations settings on Google Maps."
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:286
+msgid "Specify the latitude of this location manually"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:293
+msgid "Latitude"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:303
+msgid "Specify the longitude of this location manually"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:310
+msgid "Longitude"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:331
+msgid "Specify the price of this property here."
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:342
+msgid "Prefix: %s"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:345
+msgid "Suffix: %s"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:363
+msgid ""
+"\n"
+"\t\t        \t\t\t\t<p>\n"
+"\t\t        \t\t\t\tAdding details to properties gives you some awesome "
+"power-management features. For starters, it allows you to add important "
+"information such as how many baths has, how showers, does it have a doggy "
+"door, etc.\n"
+"\t\t        \t\t\t\t</p>\n"
+"\t\t        \t\t\t\t<p>\n"
+"\t\t        \t\t\t\t\tOnce you've added some details you can let your "
+"viewers search based on these details.\n"
+"\t\t        \t\t\t\t</p>\n"
+"\t\t        \t\t\t\t"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:378
+msgid ""
+"Use these options to add specific details to the property. First type the "
+"name of the detail (rooms, size, etc.), then add the value. For the most "
+"common details we have separate fields above."
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:410
+msgid "Detail Name"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:413
+msgid "Detail Value"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:416
+msgid "x remove detail"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:422
+msgid "+ add detail"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:436
+msgid "Specify the agent this property belongs to"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:440
+msgid "Agents"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:457
+msgid "Agent"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:459
+msgid "-- Select an Agent --"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:475
+msgid "+ add another agent"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:484
+msgid ""
+"\n"
+"\t\t        \t\t\t\t<p>\n"
+"\t\t        \t\t\t\tThe following fields let you customize the automatic "
+"reply messages that get sent to users sending contact messages. You only "
+"need to fill this out if you would like something different than the global "
+"settings defined in the <a href=\"%s\">Theme Customizer</a>.\n"
+"\t\t        \t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t\tFor the subject and message fields below you can use a "
+"couple of placeholders which signify the title and the link for the "
+"property. If you use <strong>!url</strong> it will be replaced by the title "
+"of the property. If you use <strong>!link</strong> it will be replaced with "
+"the url to the property.\n"
+"\t\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t        \t\t\t\t"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:500
+msgid "Specify the subject of the auto-reply email"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:516
+msgid "Specify the message of the auto-reply email"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:523
+msgid "Contact Auto-Reply Message"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:532
+msgid "Specify the email address the contact email is sent to"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:539
+msgid "Send The Contact Email To This Address"
+msgstr ""
+
+#: framework/template-options/bshPropertyOptions.class.php:549
+msgid ""
+"\n"
+"<p>Properties work quite like regular posts. In addition to the standard "
+"things like a title, content, being able to schedule them and so on, they "
+"give you a lot of property-specific options, let's take a look at those.</"
+"p>\n"
+"<p>First of all, there are two custom taxonomies available. Property Type "
+"and Property Category. You can add as many entries as you want into each. "
+"You can later let users search based on these parameters, and you can use "
+"them in property lists to narrow what you show to users.</p>\n"
+"<p>In the <a href=\"bonsaished.com/estatement/\">Estatement Demo</a> we've "
+"used the property types to add categories like \"Apartment\", \"Detached "
+"House\" and so on. We've used the property categories to add building types "
+"like \"Highrise\", \"Victorian\", \"Colonial\" and so on.</p>\n"
+"<p>Note that the media uploaded to properties is used in the slider for the "
+"property page. If you only add one image it is shown as a featured image, if "
+"more are added, a slider is created for you.</p>\n"
+"<p>All the other property-specific settings can be found in the Estatement "
+"options box underneath the content editor. :</p>\n"
+"<ul>\n"
+"<li>Structure\n"
+"<ul>\n"
+"<li><strong><strong>Page Title</strong>: Allows you to show or hide the page "
+"title</strong></li>\n"
+"<li><strong>Sidebar</strong>: Allows you ro show a specific sidebar for this "
+"page</li>\n"
+"<li><strong>Element At The Top Of The Page</strong>: Allows you to select "
+"which element is shown at the top of the page.</li>\n"
+"<li><strong>Ribbon Custom Field</strong>: Allows you to choose which custom "
+"field should be shown in the ribbon. A global default can be set for this in "
+"the theme customizer.</li>\n"
+"\n"
+"</ul>\n"
+"</li>\n"
+"<li>Location\n"
+"<ul>\n"
+"<li><strong>Country</strong>: Allows you to select the country the property "
+"is located in</li>\n"
+"<li><strong>State</strong>: Select the state the property is located in</"
+"li>\n"
+"<li><strong>City</strong>: Add the city the property is in</li>\n"
+"<li><strong>Street Address</strong>: Add the specific street address if the "
+"property.</li>\n"
+"<li><strong>Zip/Postal Code</strong>: Add the zip or postal code of the "
+"property</li>\n"
+"<li><strong>Latitude</strong>: Allows you to manually set the latitude for a "
+"property</li>\n"
+"<li><strong>Longitude</strong>: Allows you to manually set the longitude for "
+"a property</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li>Details\n"
+"<ul>\n"
+"<li><strong>Price</strong>: Specify the price of the property. Make sure to "
+"<strong>not</strong> add the currency as this is set up in the theme "
+"customizer</li>\n"
+"<li><strong>Building Area</strong>: Add the area of the building itself. Do "
+"<strong>not</strong> specify the unit of measurement, this is set up in the "
+"theme customizer</li>\n"
+"<li><strong>Property Grounds Area</strong>: Add the area of the whole "
+"property. Do <strong>not</strong> add a unit of measurement as this is set "
+"up in the theme customizer.</li>\n"
+"<li><strong>Property Built Year</strong>: Add the year the property was "
+"built in</li>\n"
+"<li><strong>Property Room Count</strong>: Add the number of rooms inside the "
+"property</li>\n"
+"<li><strong>Custom Details</strong>: Using this section you can set up your "
+"custom details. Add name-value pairs like \"Baths\" and \"2\". You can later "
+"let users search based on these custom parameters.</li>\n"
+"</ul>\n"
+"</li>\n"
+"<li>Contact Options\n"
+"<ul>\n"
+"<li><strong>Contact Auto-Reply Subject</strong>: This setting is set "
+"globally in the theme customizer. If you want to specify a different auto-"
+"reply subject for a specific property you can do so here.</li>\n"
+"<li><strong>Contact Auto-Reply Message</strong>: This setting is set "
+"globally in the theme customizer. If you want to specify a different auto-"
+"reply message for a specific property you can do so here.</li>\n"
+"<li><strong>Send The Contact Email To This Address</strong>: This setting is "
+"set globally in the theme customizer. If you would like contact messages "
+"sent about a specific property to go to a different email address you can "
+"specify it here.</li>\n"
+"</ul>\n"
+"</li>\n"
+"</ul>\n"
+"\n"
+"\t        \t\t\t"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:32
+msgid "Search Page Options"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:51
+msgid "Slideshow Options"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:134
+msgid ""
+"\n"
+"\t\t        \t\t\t<p>\n"
+"\t\t        \t\t\tIf you upload <strong>one image</strong> to this page that "
+"image will be used as the background for the search page. If you upload "
+"<strong>multiple images</strong> to this page you can set up a slideshow, or "
+"a different image to show up on each page load. The following options all "
+"apply to situations where you have uploaded more than one image.\n"
+"\t\t        \t\t\t</p>\n"
+"\t\t        \t\t\t"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:148
+msgid ""
+"If you have uploaded multiple images to the page you can choose to display "
+"them all using a fading transition effect or load a new one on each page "
+"load."
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:152
+msgid "Background Type"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:181
+msgid ""
+"If you've selected the slideshow option above you can set the time each "
+"image is displayed for here."
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:189
+msgid "Slideshow Speed (in seconds)"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:474
+msgid ""
+"Select between a full page search or specify the height to be able to add "
+"some content"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:486
+msgid "Search Height"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:489
+msgid "Full Page Search"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:490
+msgid "Specific Search Height:"
+msgstr ""
+
+#: framework/template-options/bshSearchPageOptions.class.php:570
+msgid ""
+"\n"
+"\n"
+"\t\t\t\t\t\t\t<p>The search page template allows you to crearte a beautiful "
+"full screen search page to capture users. It is extremely customizable "
+"allowing you to specify how users can search and what parameters they can "
+"use.</p>\n"
+"<p>To create the full size backgrounds for the search page all you need to "
+"do is upload one or more large image in the add media section. These will be "
+"used as the basis for the rotation of images.</p>\n"
+"<p>Search pages allow you to modify the following settings:</p>\n"
+"<ul>\n"
+"\t<li>Text Options\n"
+"<ul>\n"
+"\t<li><strong>Search Placeholder</strong>: Specify the text shown inside the "
+"search box by default</li>\n"
+"\t<li><strong>Button Text</strong>: Specify the button text</li>\n"
+"\t<li><strong>Advanced Options Open Text</strong>: Specify the text in the "
+"advanced search tab when it is closed</li>\n"
+"\t<li><strong>Advanced Options Closed Text</strong>: Specify the text in the "
+"advanced search tab when it is open</li>\n"
+"</ul>\n"
+"</li>\n"
+"\t<li>Slideshow Options\n"
+"<ul>\n"
+"\t<li><strong>Background Type</strong>: Select how you want to show your "
+"images. You can cycle through them or show a different one on each reload.</"
+"li>\n"
+"\t<li><strong>Slideshow Speed</strong>: Select how long each image is shown</"
+"li>\n"
+"</ul>\n"
+"</li>\n"
+"\t<li>Advanced Search\n"
+"<ul>\n"
+"\t<li><strong>Enable Advanced Search</strong>: If enabled, users will be "
+"able to use the parameters you specify to narrow their search.</li>\n"
+"\t<li><strong>Built In Details To Show</strong>: This large table allows you "
+"to select which built in details you want to allow the user to use. You can "
+"select each detail and then select the control type it should use. In "
+"addition you can type a numeric order into the box to make them show up in "
+"the order you'd like.</li>\n"
+"\t<li><strong>Custom In Details To Show</strong>: This large table allows "
+"you to select which custom details you want to allow the user to use. You "
+"can select each detail and then select the control type it should use. In "
+"addition you can type a numeric order into the box to make them show up in "
+"the order you'd like</li>\n"
+"</ul>\n"
+"</li>\n"
+"\t<li>Structure\n"
+"<ul>\n"
+"\t<li><strong>Search Height</strong>: This option allows you to choose "
+"between a full-page search or a search with a specific height. If a specific "
+"height is selected you will be able to add content into the editor, just "
+"like on other pages. This is great for creating some beautiful <a href="
+"\"http://airbnb.com\">airbnb</a> style pages.</li>\n"
+"\t<li><strong>Layout</strong>: The layout option applies to this page if a "
+"specific search height is selected. In this case you can choose a layout.</"
+"li>\n"
+"\t<li><strong>Sidebar</strong>: If a search height is specifically chosen "
+"and a layout with a sidebar is used you can select which sidebar should show "
+"up here.</li>\n"
+"</ul>\n"
+"</li>\n"
+"</ul>\n"
+"\n"
+"\t        \t\t\t"
+msgstr ""
+
+#: framework/widgets/AgentContactWidget.class.php:35
+msgid "Estatement: Agent Contact Widget"
+msgstr ""
+
+#: framework/widgets/AgentContactWidget.class.php:37
+msgid ""
+"This widget displays a nicely formatted contact sheet on Agent pages. The "
+"widget will not show up on other pages"
+msgstr ""
+
+#: framework/widgets/AgentContactWidget.class.php:55
+#: framework/widgets/ContactWidget.class.php:64
+#: framework/widgets/FeaturedItemWidget.class.php:61
+#: framework/widgets/LatestPostsWidget.class.php:65
+#: framework/widgets/PropertyContactWidget.class.php:56
+#: framework/widgets/PropertyDetailsWidget.class.php:57
+#: framework/widgets/TwitterWidget.class.php:70
+msgid "Title:"
+msgstr ""
+
+#: framework/widgets/AgentContactWidget.class.php:62
+msgid "Show User Description:"
+msgstr ""
+
+#: framework/widgets/AgentContactWidget.class.php:64
+msgid "Show agent's description"
+msgstr ""
+
+#: framework/widgets/AgentContactWidget.class.php:137
+#: framework/widgets/ContactWidget.class.php:199
+msgid "Phone Icon"
+msgstr ""
+
+#: framework/widgets/AgentContactWidget.class.php:140
+#: framework/widgets/ContactWidget.class.php:202
+msgid "Envelope Icon"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:35
+msgid "Estatement: Contact Widget"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:37
+msgid ""
+"This widget displays a nicely formatted contact sheet with social links and "
+"contact info"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:71
+msgid "Text:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:76
+msgid "Social Sites"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:78
+msgid ""
+"Filling the following social site details out will generate an icon for "
+"each. Leave the ones you don't want to use blank."
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:83
+msgid "Twitter Username:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:90
+msgid "Facebook Link:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:97
+msgid "Linkedin Link:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:104
+msgid "Flickr Link:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:111
+msgid "Pinterest Link:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:118
+msgid "RSS Link:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:120
+msgid "Display Link To RSS Feed"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:125
+msgid "Contact Info"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:129
+msgid "Phone Number:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:136
+msgid "Email:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:143
+msgid "Location:"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:148
+msgid "Icons"
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:150
+msgid ""
+"To change the icons for the social sites or the contact info, add different "
+"images to the <code>images/customWidget</code> folder in your child theme."
+msgstr ""
+
+#: framework/widgets/ContactWidget.class.php:205
+msgid "Map Pin Icon"
+msgstr ""
+
+#: framework/widgets/FeaturedItemWidget.class.php:38
+msgid "Estatement: Featured Item"
+msgstr ""
+
+#: framework/widgets/FeaturedItemWidget.class.php:40
+msgid ""
+"This widget allows you to specify an image, some text and a link to show as "
+"a featured item"
+msgstr ""
+
+#: framework/widgets/FeaturedItemWidget.class.php:68
+msgid "Featured Item Title:"
+msgstr ""
+
+#: framework/widgets/FeaturedItemWidget.class.php:75
+msgid "Featured Item image:"
+msgstr ""
+
+#: framework/widgets/FeaturedItemWidget.class.php:81
+msgid "Featured Item Text:"
+msgstr ""
+
+#: framework/widgets/FeaturedItemWidget.class.php:88
+msgid "Featured Item Link URL:"
+msgstr ""
+
+#: framework/widgets/FeaturedItemWidget.class.php:95
+msgid "Featured Item Link Text:"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:40
+msgid "Estatement: Latest Posts"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:42
+msgid ""
+"This widget enables you to create a post list in the sidebar with more "
+"flexibility than the regular WordPress widget. You can show images and order "
+"posts in different ways"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:72
+msgid "Post Type:"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:88
+msgid "Order items:"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:103
+msgid "Post IDs for custom order:"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:105
+msgid "Separate post IDs with commas"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:111
+msgid "Number of posts to show:"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:119
+msgid "only show posts with featured images"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:125
+msgid "show featured images"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:131
+msgid "show excerpt"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:136
+msgid "Excerpt length (number of words):"
+msgstr ""
+
+#: framework/widgets/LatestPostsWidget.class.php:145
+msgid "show read more links"
+msgstr ""
+
+#: framework/widgets/PropertyContactWidget.class.php:38
+msgid "Estatement: Property Contact Form"
+msgstr ""
+
+#: framework/widgets/PropertyContactWidget.class.php:40
+msgid ""
+"This widget shows the contact for for the property shown. You can set the "
+"options for this in the Theme Customizer, or for each property specifically "
+"in the property's options. It will only be shown on single property pages"
+msgstr ""
+
+#: framework/widgets/PropertyContactWidget.class.php:62
+msgid ""
+"Estatement allows you to customize the auto-reply text and which email the "
+"messages are sent to. This can be done in the <a href=\"%s\">Theme "
+"Customizer</a> globally, or it can be set individually for each property in "
+"the property options"
+msgstr ""
+
+#: framework/widgets/PropertyDetailsWidget.class.php:38
+msgid "Estatement: Property Custom Fields"
+msgstr ""
+
+#: framework/widgets/PropertyDetailsWidget.class.php:40
+msgid ""
+"This widget allows you to show the custom fields for the current property. "
+"It will only be shown on single property pages"
+msgstr ""
+
+#: framework/widgets/PropertyDetailsWidget.class.php:64
+msgid "Shown Fields:"
+msgstr ""
+
+#: framework/widgets/PropertyDetailsWidget.class.php:80
+msgid "Address Display"
+msgstr ""
+
+#: framework/widgets/PropertyDetailsWidget.class.php:97
+msgid "Position of Location Field:"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:42
+msgid "Estatement: Twitter Widget"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:44
+msgid "Displays any Twitter widget you have created on Twitter"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:65
+msgid ""
+"Your Twitter credentials are not correct. Make sure to copy the correct "
+"access tokens from your Twitter app in to the <a href=\"%s\">Theme "
+"Customizer</a>. Once you've changed these settings it could take 10 minutes "
+"until it actually shows up. To force the changes to take effect, save the "
+"contents of this widget"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:77
+msgid "Tweets to show:"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:84
+msgid "Twitter username:"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:92
+msgid "Show Profile:"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:94
+msgid "Yes"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:96
+msgid "No"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:102
+msgid "Twitter API Key"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:103
+msgid ""
+"<p>Twitter only allows access to timelines through their API. Due to this "
+"you will need an API key to make this widget work. This is free and can "
+"easily be done. Follow the directions found on the <a href=\"https://dev."
+"twitter.com/\">Twitter Developers</a> site.</p> <p>Once you have your API "
+"key you will need to input it into the API Keys section of the <a href=\"%s"
+"\">Theme Customizer</a></p><p>If you do not create an API key the default "
+"Bonsai Shed API key will be used. Once many people use the same key it may "
+"get rate limited, making your Twitter widget stop working</p>"
+msgstr ""
+
+#: framework/widgets/TwitterWidget.class.php:128
+msgid "Twitter Avatar"
+msgstr ""
+
+#: functions.php:228
+msgid "Customize Estatement Design and Theme Options"
+msgstr ""
+
+#: functions.php:229
+msgid "Customize Theme"
+msgstr ""
+
+#: functions.php:260
+msgid "Header menu"
+msgstr ""
+
+#: functions.php:261
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:267
+msgid "The default Estatement sidebar"
+msgstr ""
+
+#: functions.php:277
+msgid "Property Page Sidebar"
+msgstr ""
+
+#: functions.php:278
+msgid "The default sidebar for property pages"
+msgstr ""
+
+#: functions.php:287
+msgid "Footerbar"
+msgstr ""
+
+#: functions.php:289
+msgid "The default footer bar for Estatement"
+msgstr ""
+
+#: functions.php:297
+msgid "Agent Page Sidebar"
+msgstr ""
+
+#: functions.php:298
+msgid "The default Sidebar For Agent Pages"
+msgstr ""
+
+#: functions.php:336 functions.php:347 layout-agent-list.php:29
+msgid "Properties"
+msgstr ""
+
+#: functions.php:337 functions.php:1948
+msgid "Property"
+msgstr ""
+
+#: functions.php:338
+msgid "Add New"
+msgstr ""
+
+#: functions.php:339
+msgid "Add New Property"
+msgstr ""
+
+#: functions.php:340
+msgid "Edit Property"
+msgstr ""
+
+#: functions.php:341
+msgid "New Property"
+msgstr ""
+
+#: functions.php:342
+msgid "All Properties"
+msgstr ""
+
+#: functions.php:343
+msgid "View Property"
+msgstr ""
+
+#: functions.php:344
+msgid "Search Properties"
+msgstr ""
+
+#: functions.php:345
+msgid "No properties found"
+msgstr ""
+
+#: functions.php:346
+msgid "No properties found in Trash"
+msgstr ""
+
+#: functions.php:386
+msgid "Property updated. <a href=\"%s\">View property</a>"
+msgstr ""
+
+#: functions.php:388
+msgid "Custom field updated."
+msgstr ""
+
+#: functions.php:389
+msgid "Custom field deleted."
+msgstr ""
+
+#: functions.php:390
+msgid "Property updated."
+msgstr ""
+
+#: functions.php:391
+msgid "Property restored to revision from %s"
+msgstr ""
+
+#: functions.php:393
+msgid "Property published. <a href=\"%s\">View property</a>"
+msgstr ""
+
+#: functions.php:395
+msgid "Property saved."
+msgstr ""
+
+#: functions.php:396
+msgid ""
+"Property submitted. <a target=\"_blank\" href=\"%s\">Preview property</a>"
+msgstr ""
+
+#: functions.php:398
+msgid ""
+"Property scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview property</a>"
+msgstr ""
+
+#: functions.php:399
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: functions.php:401
+msgid ""
+"Property draft updated. <a target=\"_blank\" href=\"%s\">Preview property</a>"
+msgstr ""
+
+#: functions.php:419
+msgid "Property Type"
+msgstr ""
+
+#: functions.php:420
+msgid "Search Property Type"
+msgstr ""
+
+#: functions.php:421
+msgid "All Property Types"
+msgstr ""
+
+#: functions.php:422
+msgid "Parent Property Type"
+msgstr ""
+
+#: functions.php:423
+msgid "Parent Property Type:"
+msgstr ""
+
+#: functions.php:424
+msgid "Edit Property Type"
+msgstr ""
+
+#: functions.php:425
+msgid "Update Property Type"
+msgstr ""
+
+#: functions.php:426
+msgid "Add New Property Type"
+msgstr ""
+
+#: functions.php:427
+msgid "New Property Type Name"
+msgstr ""
+
+#: functions.php:446
+msgid "Search Property Category"
+msgstr ""
+
+#: functions.php:447
+msgid "All Property Categories"
+msgstr ""
+
+#: functions.php:448
+msgid "Parent Property Category"
+msgstr ""
+
+#: functions.php:449
+msgid "Parent Property Category:"
+msgstr ""
+
+#: functions.php:450
+msgid "Edit Property Category"
+msgstr ""
+
+#: functions.php:452
+msgid "Add New Property Category"
+msgstr ""
+
+#: functions.php:453
+msgid "New Property Category Name"
+msgstr ""
+
+#: functions.php:454
+msgid "Property Category"
+msgstr ""
+
+#: functions.php:683
+msgid "Pingback"
+msgstr ""
+
+#: functions.php:698
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1155
+msgid ""
+"\n"
+"\t\t<p>\n"
+"\t\t\tDon't forget that there is inline help available for each specific "
+"option next to the option itself. Simply hover over the help link.</p>\n"
+"\t\t<p>\n"
+"\t\t\tBefore you ask for support make sure to read the relevant sections in "
+"the documentation you received with the theme. We also have online "
+"documentation in our <a href=\"http://bonsaished.com/knowledgebase/"
+"\">Knowledgebase</a>. We recommend taking a look here as well.\n"
+"\t\t</p>\n"
+"\t\t<p>\n"
+"\t\t\tIf you still have questions or you have found a possible bug, we are "
+"at your service in the <a href=\"http://bonsaished.com/support/theme/"
+"estatement/\">Support Forum</a>.If you contact us there, please make sure to "
+"include a <strong>screenshot and a link</strong> to whatever it is you have "
+"a problem with.\n"
+"\n"
+"\t\t</p>\n"
+"\t"
+msgstr ""
+
+#: functions.php:1170
+msgid ""
+"\n"
+"\t    <p>Shortcodes are snippets of specially formatted content which you "
+"can use to liven up your website's content. If you don't know how to use "
+"them, refer to the theme documentation, or read our short guide on <a href="
+"\"http://bonsaished.com/blog/kb/how-to-use-shortcodes/\">How to Use "
+"Shortcodes</a> online.</p>\n"
+"\n"
+"\t    <h4>Line Shortcode</h4>\n"
+"\n"
+"\t    <h5>[line]</h5>\n"
+"\n"
+"\t    <p>The line shortcode allows you to add a separator line between two "
+"bits of content. Optionally you can add a little link inline with the line. "
+"The parameters of this shortcode are:</p>\n"
+"\n"
+"\t    <p><strong>color</strong><br>\n"
+"\t    By specifying a color you are controling the color of the line. Please "
+"take a look at the Color Notes for how to specify colors.</p>\n"
+"\n"
+"\t    <p><strong>url</strong><br>\n"
+"\t    If you would like to add a link next to the line (to take the user to "
+"the top of the page for example) you can do so by adding the url parameter. "
+"If given, a link will be generated for you. if you want the link to take "
+"users to the top of the page use '#' as the value for this parameter.</p>\n"
+"\n"
+"\t    <p><strong>text</strong><br>\n"
+"\t    The link will have the text given here. The default text is 'link' "
+"which you will probably want to change to something more meaningful.</p>\n"
+"\n"
+"\t    <p><strong>position</strong><br>\n"
+"\t    You can define a position for the link. The position can be left or "
+"right (left is the default).</p><a href=\"http://bonsaished.com/blog/kb/line-"
+"shortcode/\">View Examples Online</a>\n"
+"\n"
+"\t    <div class=\"separator\"></div>\n"
+"\n"
+"\t    <h4>Column Shortcode</h4>\n"
+"\n"
+"\t    <h5>[row][column][/column][/row]</h5>\n"
+"\n"
+"\t    <p>Columns enable you to easily sort your content into a column based "
+"layout. Creating columns requires the use of two separate shortcodes, the "
+"[row] and the [column] shortcode. The parameters of this shortcode are:</p>\n"
+"\n"
+"\t    <p>There is only one attribute involved which needs to be added to the "
+"column shortcode to tell it how wide it should be.</p>\n"
+"\n"
+"\t    <p><strong>width</strong><br>\n"
+"\t    Sets the width of a column in units. Should be given as one to twelve."
+"</p>\n"
+"\n"
+"\t    <p>There are twelve units in each row. This means that whenever you "
+"create a row you will need to distrbute 12 units throughout them. In other "
+"words you can create one 'twelve' width column in a row or two 'six' width "
+"coliumns, or three 'four' width columns. The idea is that the width of all "
+"columns in a row should add up to twelve.</p>\n"
+"\n"
+"\t    <p>You don't have to use the same widths in a row though. You could "
+"create a 'six' width column and two 'three' width columns. Let's look at "
+"some examples.</p><a href=\"http://bonsaished.com/blog/kb/column-shortcode/"
+"\">View Examples Online</a>\n"
+"\n"
+"\t    <div class=\"separator\"></div>\n"
+"\n"
+"\t    <h4>Map Shortcode</h4>\n"
+"\n"
+"\t    <h5>[map]</h5>\n"
+"\n"
+"\t    <p>The map shortcode lets you put a customizable Google map centered "
+"on a location you specify anywhere in a post. The parameters of this "
+"shortcode are:</p>\n"
+"\n"
+"\t    <p><strong>location</strong><br>\n"
+"\t    Adding this is necessary for the map to show up. It should be an "
+"address in plain text, something you would type into the search field in "
+"Google Maps.</p>\n"
+"\n"
+"\t    <p><strong>type</strong><br>\n"
+"\t    The type of map to show. The value can be HYBRID, SATELLITE, ROADMAP, "
+"TERRAIN. The default value is HYBRID.</p>\n"
+"\n"
+"\t    <p><strong>zoom</strong><br>\n"
+"\t    Set the initial zoom level for a map. If you're adding a street level "
+"map somewhere around 14 (the default) is best. The zoom can range from 1 and "
+"up where 1 is the most zoomed out.</p>\n"
+"\n"
+"\t    <p><strong>marker</strong><br>\n"
+"\t    If set to yes, a marker will be placed at the center of the map, "
+"indicating the location you specified</p>\n"
+"\n"
+"\t    <p><strong>height</strong><br>\n"
+"\t    The height of the map can be set specifically if you need it. By "
+"default it is set to 400px. Don't forget to add the 'px' suffix to the "
+"amount!</p><a href=\"http://bonsaished.com/blog/kb/map-shortcode/\">View "
+"Examples Online</a>\n"
+"\n"
+"\t    <div class=\"separator\"></div>\n"
+"\n"
+"\t    <h4>Tabs Shortcode</h4>\n"
+"\n"
+"\t    <h5>[tabs][section][/section][/tabs]</h5>\n"
+"\n"
+"\t    <p>Using the tabs shortcode you can create an area with tabbed "
+"navigation. This is great if you want to show more content in smaller area. "
+"The [tabs] shortcode is always used with the [section] shortcode, similarly "
+"to how columns are created. The parameters of this shortcode are:</p>\n"
+"\n"
+"\t    <p>The [tabs] shorcode has two attributes:</p>\n"
+"\n"
+"\t    <p><strong>contained</strong><br>\n"
+"\t    This attribute can be set to 'yes' or 'no'. By default it is set to "
+"yes, which means that the contents of the tabs will be contained in a box. "
+"If set to no, the box will be removed.</p>\n"
+"\n"
+"\t    <p><strong>pill</strong><br>\n"
+"\t    This attribute allows you to use pill-style navigation instead of "
+"regular tabs. Set to yes if you would like pills, the default value is no.</"
+"p>\n"
+"\n"
+"\t    <p>The [section] shortcode has just one attribute:</p>\n"
+"\n"
+"\t    <p><strong>title</strong><br>\n"
+"\t    The title of the section which will be used in the tab.</p><a href="
+"\"http://bonsaished.com/blog/kb/tabs-shortcode/\">View Examples Online</a>\n"
+"\n"
+"\t    <div class=\"separator\"></div>\n"
+"\n"
+"\t    <h4>Accordion Shortcode</h4>\n"
+"\n"
+"\t    <h5>[accordion][section][/section][/accordion]</h5>\n"
+"\n"
+"\t    <p>An accordion is very similar to a tab, but has a vertical "
+"orientation. It is similarly useful for displaying more content in smaller "
+"spaces. To create an accordion you will need to use the [accordion] "
+"shortcode and the [section] shortcode. The setup is exactly the same as "
+"before, but the accordion shortcode does not have any parameters. The "
+"section shortcode has a title parameter which you must fill out. The "
+"parameters of this shortcode are:</p>\n"
+"\n"
+"\t    <p><strong>background</strong><br>\n"
+"\t    The title of the section which will be used in the accordion</p><a "
+"href=\"http://bonsaished.com/blog/kb/accordion-shortcode/\">View Examples "
+"Online</a>\n"
+"\n"
+"\t    <div class=\"separator\"></div>\n"
+"\n"
+"\n"
+"\n"
+"\t    <h4>Slideshow</h4>\n"
+"\n"
+"\t    <h5>[slideshow]</h5>\n"
+"\n"
+"\t\t<p>A slideshow enables you to show off a number of images in style. "
+"Users will be able to flick through the slideshow and navigate it via the "
+"navigation dots on the bottom. Slideshows have just one parameter which "
+"allows you to add the images you need. If you omit this parameter, all "
+"images beloning to the post in question will be used. If you don't know what "
+"shortcodes are we recommend you read our article on <a href=\"http://"
+"bonsaished.com/blog/kb/how-to-use-shortcodes/\">How to Use Shortcodes</a>.</"
+"p>\n"
+"\t\t<p><strong>ids</strong><br>\n"
+"\t\tAdd a comma separated list of image ids. The easiest way to add the "
+"images you need is to actually create a WordPress gallery first. If you "
+"don't know how to do this, refer to our article about <a href=\"http://"
+"bonsaished.com/blog/kb/uploading-and-using-media/\">Uploading and Using "
+"Media</a>. Once you've created the gallery just rename the shortcode from "
+"<code>gallery</code> to <code>slideshow</code></p>\n"
+"\n"
+"\t\t<a href=\"http://bonsaished.com/blog/kb/slideshow-shortcode/\">View "
+"Examples Online</a>\n"
+"\n"
+"\t    <div class=\"separator\"></div>\n"
+"\n"
+"\n"
+"\t    <h4>Property List Shortcode</h4>\n"
+"\n"
+"\t    <h5>[postlist]</h5>\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\t\t\t\t\t\t\t<p>The property list shortcode is great for showing property "
+"listings wherever you like. It allows you to add property cards or listings "
+"anywhere inside content, with full control over what is shown and how.&nbsp;"
+"If you don't know what shortcodes are we recommend you read our article "
+"on&nbsp;<a href=\"http://bonsaished.com/blog/kb/how-to-use-shortcodes/\" "
+"data-cke-saved-href=\"http://bonsaished.com/blog/kb/how-to-use-shortcodes/"
+"\">How to Use Shortcodes</a>. The parameters of this shortcode are:</p>\n"
+"<strong>layout</strong><br>\n"
+"<p>By choosing between specific layouts you can make the properties display "
+"differently. Currently you have a choice between <strong>card</strong>, "
+"<strong>minicard</strong> and <strong>list</strong>.</p>\n"
+"<strong>count</strong><br>\n"
+"<p>Select the number of items to show</p>\n"
+"\n"
+"<strong>columns</strong><br>\n"
+"<p>\n"
+"Determine how many columns you would like to show the results in. The "
+"options are \"1\", \"2\" or \"3\".</p>\n"
+"<strong>include</strong><br>\n"
+"<p>\n"
+"Select specific properties to show. If you add this parameters, others are "
+"discarded. To find the ID of a property take a look at our guide on <a href="
+"\"http://bonsaished.com/blog/kb/post-ids/\">Post Ids</a>. Remember that you "
+"can add multiple ids by separating them with commas. </p>\n"
+"<strong>property_type</strong><br>\n"
+"<p>\n"
+"Select the ID of the property type you want to show. You can add comma "
+"separated values as well to use multiple types. If you don?t know how to "
+"find the ID of a property type, refer to our article on&nbsp;<a href="
+"\"http://bonsaished.com/blog/kb/category-and-taxonomy-ids/\" data-cke-saved-"
+"href=\"http://bonsaished.com/blog/kb/category-and-taxonomy-ids/\">Category "
+"and Taxonomy IDs</a>.</p>\n"
+"<strong>property_category</strong><br>\n"
+"<p>Select the ID of the property category you want to show. You can add "
+"comma separated values as well to use multiple categories. If you don?t know "
+"how to find the ID of a property category, refer to our article on&nbsp;<a "
+"href=\"http://bonsaished.com/blog/kb/category-and-taxonomy-ids/\" data-cke-"
+"saved-href=\"http://bonsaished.com/blog/kb/category-and-taxonomy-ids/"
+"\">Category and Taxonomy IDs</a>.</p>\n"
+"\n"
+"\n"
+"\n"
+"\t\t<a href=\"http://bonsaished.com/blog/kb/property-list-shortcode/\">View "
+"Examples Online</a>\n"
+"\n"
+"\t    <div class=\"separator\"></div>\n"
+"\n"
+"\n"
+"\t    <h4>Button Shortcode</h4>\n"
+"\n"
+"\t    <h5>[button][/button]</h5>\n"
+"\n"
+"\t    <p>Creating nicely formatted buttons is extremely easy with the button "
+"shortcode. Just wrap it around any text to make it look like a button. You "
+"can specify a URL to actually make it work as a button and you can adjust "
+"various style settings. The parameters of this shortcode are:</p>\n"
+"\n"
+"\t    <p><strong>url</strong><br>\n"
+"\t    The URL the user is taken to when the button is clicked</p>\n"
+"\n"
+"\t    <p><strong>background</strong><br>\n"
+"\t    The background color of the button. See the section above on using "
+"colors for what values you can add here.</p>\n"
+"\n"
+"\t    <p><strong>color</strong></p>\n"
+"\n"
+"\t    <div>\n"
+"\t        The text color of the button.&nbsp;See the section above on using "
+"colors for what values you can add here.\n"
+"\n"
+"\t        <p></p>\n"
+"\n"
+"\t        <p><strong>gradient</strong><br>\n"
+"\t        If set to 'yes' a subtle gradient will be generated based on the "
+"background color. The default value is 'no'.</p>\n"
+"\n"
+"\t        <p><strong>radius</strong><br>\n"
+"\t        If you would like a rounded button you can set the radius here. By "
+"default it is set to '0px'. If you would like a subtle rounded corner use a "
+"small value like '3px'. if you want heavily rounded corners use something "
+"like '3px'. Don't &nbsp;forget to add the 'px' part!</p>\n"
+"\n"
+"\t        <p><strong>arrow</strong><br>\n"
+"\t        If set to 'yes', an arrow will be generated on the right of the "
+"button. The color of this arrow will be the same as the given text color. By "
+"default it is set to 'no'</p><a href=\"http://bonsaished.com/blog/kb/button-"
+"shortcode/\">View Examples Online</a>\n"
+"\n"
+"\t        <div class=\"separator\"></div>\n"
+"\n"
+"\t        <h4>Highlight Shortcode</h4>\n"
+"\n"
+"\t        <h5>[highlight][/highlight]</h5>\n"
+"\n"
+"\t        <p>The highlight shortcode allows you to highlight bits of your "
+"text in the post content. This is useful for making something stand out, or "
+"separating some content from the rest for some other reason. You can modify "
+"the color of the highlight using attributes. The parameters of this "
+"shortcode are:</p>\n"
+"\n"
+"\t        <p><strong>background</strong><br>\n"
+"\t        The background color of the highlight. See the section above on "
+"using colors for what values you can add here.</p>\n"
+"\n"
+"\t        <p><strong>color</strong><br>\n"
+"\t        The text color of the highlight.&nbsp;See the section above on "
+"using colors for what values you can add here.</p><a href=\"http://"
+"bonsaished.com/blog/kb/highlight-shortcode/\">View Examples Online</a>\n"
+"\n"
+"\t        <div class=\"separator\"></div>\n"
+"\n"
+"\t        <h4>Message Shortcode</h4>\n"
+"\n"
+"\t        <h5>[message][/message]</h5>\n"
+"\n"
+"\t        <p>The message shortcode is another helpful tool for making some "
+"content stick out. It is great for putting up notices, warnings and other "
+"relevant information that you want to draw the user's attention to. Using "
+"attributes you can change some properties of the display. The parameters of "
+"this shortcode are:</p>\n"
+"\n"
+"\t        <p><strong>background</strong><br>\n"
+"\t        The background color of the message. See the section above on "
+"using colors for what values you can add here.</p>\n"
+"\n"
+"\t        <p><strong>color</strong><br>\n"
+"\t        The text color of the message.&nbsp;See the section above on using "
+"colors for what values you can add here.</p>\n"
+"\n"
+"\t        <p><strong>radius</strong><br>\n"
+"\t        If you would like a rounded message you can set the radius here. "
+"By default it is set to '0px'. If you would like a subtle rounded corner use "
+"a small value like '3px'. if you want heavily rounded corners use something "
+"like '3px'. Don't &nbsp;forget to add the 'px' part!</p><a href=\"http://"
+"bonsaished.com/blog/kb/message-shortcode/\">View Examples Online</a>\n"
+"\t        </p>\n"
+"\n"
+"\t"
+msgstr ""
+
+#: functions.php:1805
+msgid "All"
+msgstr ""
+
+#: functions.php:1808
+msgid "Any"
+msgstr ""
+
+#: functions.php:1874
+msgid "%s"
+msgstr ""
+
+#: functions.php:1947
+msgid "Email"
+msgstr ""
+
+#: functions.php:1949
+msgid "Message"
+msgstr ""
+
+#: functions.php:1954
+msgid "Contact about a property"
+msgstr ""
+
+#: functions.php:1955
+msgid ""
+"You have received a contact email about a property, here are the details:"
+msgstr ""
+
+#: functions.php:2353
+msgid "-- Select a Value --"
+msgstr ""
+
+#: functions.php:2561
+msgid "Additional Profile Info"
+msgstr ""
+
+#: functions.php:2565
+msgid "Position"
+msgstr ""
+
+#: functions.php:2573
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: functions.php:2580
+msgid "Twitter Username"
+msgstr ""
+
+#: functions.php:2587
+msgid "Linkedin Profile URL"
+msgstr ""
+
+#: functions.php:2594
+msgid "Flickr Profile URL"
+msgstr ""
+
+#: functions.php:2601
+msgid "Pinterest Profile URL"
+msgstr ""
+
+#: functions.php:2608
+msgid "Phone Number"
+msgstr ""
+
+#: header.php:66
+msgid "Logo For %s"
+msgstr ""
+
+#: header.php:84
+msgid "Map pin icon"
+msgstr ""
+
+#: header.php:89
+msgid "Smartphone icon"
+msgstr ""
+
+#: header.php:94
+msgid "Envelope icon"
+msgstr ""
+
+#: index.php:12
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: index.php:15
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: index.php:15
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: index.php:18
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: index.php:18
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: index.php:21
+msgid "Category: %s"
+msgstr ""
+
+#: index.php:24
+msgid "Tags: %s"
+msgstr ""
+
+#: index.php:30
+msgid "Archives"
+msgstr ""
+
+#: layout-post-list.php:4 layout-post-list.php:6 layout-post-list.php:38
+msgid "Click here to read this post in full"
+msgstr ""
+
+#: layout-post-list.php:23 layout-post.php:25
+msgid "0 comments"
+msgstr ""
+
+#: layout-post-list.php:23 layout-post.php:25
+msgid "1 comment"
+msgstr ""
+
+#: layout-post-list.php:23 layout-post.php:25
+msgid "% comments"
+msgstr ""
+
+#: layout-property-card.php:80 layout-property-flyer.php:37
+#: layout-property-minicard.php:67
+msgid "details"
+msgstr ""
+
+#: single-property.php:14
+msgid "Thank you for your message"
+msgstr ""
+
+#: template-bshMapPage.php:245
+msgid "Distance"
+msgstr ""
+
+#: template-bshSearchPage.php:174
+msgid "Property Search"
+msgstr ""
