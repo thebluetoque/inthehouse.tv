@@ -79,6 +79,9 @@
 		8.2 Facebook Integration
 		8.3 Twitter API
 
+	9. Add-ons / Customizations
+		9.1 Third-party embedding
+
 */
 
 /***********************************************/
@@ -3894,6 +3897,26 @@ function est_intercept_ipn() {
 
 }
 
+/***********************************************/
+/*       9. Add-ons / Customizations           */
+/***********************************************/
 
+//9.1 Third-party Embedding
+add_action( 'wp_head', 'bluetoque_thirdparty_embedded');
+function bluetoque_thirdparty_embedded() {
+	if ( $_GET['embed'] ) {
+		?>
+			<style type="text/css">
+				html, body { background-color: transparent; }
+				#siteHeader, #siteFooter, #footerBar { display: none; }
+				body > .mt44 { margin-top: 0 !important; }
+				body > .mt44 > .columns { padding: 0 !important; }
+				#siteContent { margin: 0; }
+				.section-title { padding-left: 0; }
+				.section-title .flag { display: none; }
+			</style>
+		<?php
+	}
+}
 
 ?>
